@@ -3,6 +3,7 @@
 Disclaimer: This is not an exhaustive list, nor does it get into all the nuances of the ones mentioned.
 
 - [ImpactJS](#impact)
+- [MonoGame](#monogame)
 - [Unity](#unity)
 - [Phaser](#phaser)
 - [PhoneGap](#phongap)
@@ -38,6 +39,34 @@ JS game engine using Canvas.
 - No 3D
 
 
+<a name="monogame"></a>
+## MonoGame
+
+[MonoGame.net](http://www.monogame.net/)
+
+### Pros
+
+- Relatively easy collaboration
+- Free
+- Open Source
+- Deploys to:
+ - Windows
+ - Mac
+ - Linux 
+- Additional deployment with Xamarin to:
+ - iOS
+ - Android
+
+### Cons
+
+- Additional deployment with Xamarin costs money
+ - [Xamarin Store](https://store.xamarin.com/)
+ - $300 /dev/platform/year for indie license
+ - $1,000 /dev/platform/year for business license
+ - $1,900 /dev/platform/year for enterprise license
+- Best suited for 2D games, 3D part is relatively new 
+
+
 <a name="unity"></a>
 ## Unity
 
@@ -45,8 +74,7 @@ JS game engine using Canvas.
 
 ### Pros
 
-- Relatively easy collaboration
-- Easy to learn/use
+- Graphical level/world editor
 - Free (with limitations)
 - Deploys to:
  - Everywhere
@@ -54,7 +82,12 @@ JS game engine using Canvas.
 ### Cons
 
 - Commercial, pay for additional features (and platforms?)
-- Collaboration issues?
+ - [Unity Store](https://store.unity3d.com/) 
+ - Subscription model starts at $75 /month/dev 
+ - $1,500 for pro version
+ - Additional $1,500 for each mobile platform
+ - Additional $500 for Team License
+- Collaboration issues? (I've heard from multiple sources that collaboration can be painful with Unity)
 
 
 <a name="phaser"></a>
@@ -68,7 +101,6 @@ Newer open source JS game engine using Canvas. Created by well known HTML5/JS de
 
 - Open Source
 - Easy collaboration
-- Easy to learn/use
 - Easy deployment to:
  - Web
 - Additional deployment with Cocoon JS to:
@@ -99,7 +131,7 @@ Mobile development using HTML and JS, along with a compilation step or use of th
 ### Pros
 
 - Easy collaboration
-- Easy to learn/use
+- Web Development skills transfer
 - Free for now
 - Deployment to:
  - iOS
